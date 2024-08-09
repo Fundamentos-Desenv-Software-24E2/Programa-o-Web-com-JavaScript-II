@@ -12,4 +12,8 @@ planetas[5] = "Saturno";
 
 alert("Tamanho do array: " + planetas.length);
 
+planetas.push("Urano");
+
+planetas.splice(2, 1);
+
 alert("Planetas: " + planetas + "!");
