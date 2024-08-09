@@ -6,14 +6,22 @@ planetas.push("Terra");
 planetas.push("Marte");
 planetas.push("Jupiter");
 
-alert("Tamanho do array: " + planetas.length);
+//alert("Tamanho do array: " + planetas.length);
 
 planetas[5] = "Saturno";
 
-alert("Tamanho do array: " + planetas.length);
+//alert("Tamanho do array: " + planetas.length);
 
 planetas.push("Urano");
 
 planetas.splice(2, 1);
+
+planetas.push("Netuno");
+
+planetas.push("Plutao");
+
+alert("Planetas: " + planetas + "!");
+
+planetas.pop();
 
 alert("Planetas: " + planetas + "!");
